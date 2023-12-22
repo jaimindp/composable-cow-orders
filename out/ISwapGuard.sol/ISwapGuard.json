@@ -320,20 +320,20 @@
     },
     "settings": {
       "remappings": [
-        ":@openzeppelin/=lib/@openzeppelin/contracts/",
-        ":@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
-        ":balancer/=lib/balancer/src/",
-        ":canonical-weth/=lib/canonical-weth/src/",
-        ":cowprotocol/=lib/cowprotocol/src/contracts/",
-        ":ds-test/=lib/forge-std/lib/ds-test/src/",
-        ":erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
-        ":forge-std/=lib/forge-std/src/",
-        ":helpers/=lib/balancer/src/lib/helpers/",
-        ":math/=lib/balancer/src/lib/math/",
-        ":murky/=lib/murky/src/",
-        ":openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
-        ":openzeppelin/=lib/@openzeppelin/contracts/",
-        ":safe/=lib/safe/contracts/"
+        "@openzeppelin/=lib/@openzeppelin/contracts/",
+        "@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
+        "balancer/=lib/balancer/src/",
+        "canonical-weth/=lib/canonical-weth/src/",
+        "cowprotocol/=lib/cowprotocol/src/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "helpers/=lib/balancer/src/lib/helpers/",
+        "math/=lib/balancer/src/lib/math/",
+        "murky/=lib/murky/src/",
+        "openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
+        "openzeppelin/=lib/@openzeppelin/contracts/",
+        "safe/=lib/safe/contracts/"
       ],
       "optimizer": {
         "enabled": true,
@@ -409,28 +409,28 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/ISwapGuard.sol",
-    "id": 54497,
+    "id": 54567,
     "exportedSymbols": {
       "GPv2Order": [
         17246
       ],
       "IConditionalOrder": [
-        54437
+        54507
       ],
       "IERC165": [
         52197
       ],
       "ISwapGuard": [
-        54496
+        54566
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "36:1071:140",
+    "src": "36:1071:142",
     "nodes": [
       {
-        "id": 54470,
+        "id": 54540,
         "nodeType": "PragmaDirective",
-        "src": "36:31:140",
+        "src": "36:31:142",
         "nodes": [],
         "literals": [
           "solidity",
@@ -443,24 +443,24 @@
         ]
       },
       {
-        "id": 54472,
+        "id": 54542,
         "nodeType": "ImportDirective",
-        "src": "69:62:140",
+        "src": "69:62:142",
         "nodes": [],
         "absolutePath": "lib/cowprotocol/src/contracts/libraries/GPv2Order.sol",
         "file": "cowprotocol/libraries/GPv2Order.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54497,
+        "scope": 54567,
         "sourceUnit": 17247,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54471,
+              "id": 54541,
               "name": "GPv2Order",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
               "referencedDeclaration": 17246,
-              "src": "77:9:140",
+              "src": "77:9:142",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -469,24 +469,24 @@
         "unitAlias": ""
       },
       {
-        "id": 54474,
+        "id": 54544,
         "nodeType": "ImportDirective",
-        "src": "132:52:140",
+        "src": "132:52:142",
         "nodes": [],
         "absolutePath": "lib/safe/contracts/interfaces/IERC165.sol",
         "file": "safe/interfaces/IERC165.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54497,
+        "scope": 54567,
         "sourceUnit": 52198,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54473,
+              "id": 54543,
               "name": "IERC165",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
               "referencedDeclaration": 52197,
-              "src": "140:7:140",
+              "src": "140:7:142",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -495,24 +495,24 @@
         "unitAlias": ""
       },
       {
-        "id": 54476,
+        "id": 54546,
         "nodeType": "ImportDirective",
-        "src": "186:58:140",
+        "src": "186:58:142",
         "nodes": [],
         "absolutePath": "src/interfaces/IConditionalOrder.sol",
         "file": "./IConditionalOrder.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54497,
-        "sourceUnit": 54469,
+        "scope": 54567,
+        "sourceUnit": 54539,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54475,
+              "id": 54545,
               "name": "IConditionalOrder",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
-              "referencedDeclaration": 54437,
-              "src": "194:17:140",
+              "referencedDeclaration": 54507,
+              "src": "194:17:142",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -521,19 +521,19 @@
         "unitAlias": ""
       },
       {
-        "id": 54496,
+        "id": 54566,
         "nodeType": "ContractDefinition",
-        "src": "394:712:140",
+        "src": "394:712:142",
         "nodes": [
           {
-            "id": 54495,
+            "id": 54565,
             "nodeType": "FunctionDefinition",
-            "src": "889:215:140",
+            "src": "889:215:142",
             "nodes": [],
             "documentation": {
-              "id": 54480,
+              "id": 54550,
               "nodeType": "StructuredDocumentation",
-              "src": "432:452:140",
+              "src": "432:452:142",
               "text": " @notice Verify that the order is allowed to be settled via CoW Protocol.\n @param order The order to verify.\n @param ctx The context of the order (bytes32(0) if a merkle tree is used, otherwise H(params))\n @param params The conditional order parameters (handler, salt, staticInput).\n @param offchainInput Any offchain input to verify.\n @return True if the order is allowed to be settled via CoW Protocol."
             },
             "functionSelector": "f9ae35a2",
@@ -541,20 +541,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "verify",
-            "nameLocation": "898:6:140",
+            "nameLocation": "898:6:142",
             "parameters": {
-              "id": 54491,
+              "id": 54561,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54483,
+                  "id": 54553,
                   "mutability": "mutable",
                   "name": "order",
-                  "nameLocation": "938:5:140",
+                  "nameLocation": "938:5:142",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54495,
-                  "src": "914:29:140",
+                  "scope": 54565,
+                  "src": "914:29:142",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -562,21 +562,21 @@
                     "typeString": "struct GPv2Order.Data"
                   },
                   "typeName": {
-                    "id": 54482,
+                    "id": 54552,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 54481,
+                      "id": 54551,
                       "name": "GPv2Order.Data",
                       "nameLocations": [
-                        "914:9:140",
-                        "924:4:140"
+                        "914:9:142",
+                        "924:4:142"
                       ],
                       "nodeType": "IdentifierPath",
                       "referencedDeclaration": 17121,
-                      "src": "914:14:140"
+                      "src": "914:14:142"
                     },
                     "referencedDeclaration": 17121,
-                    "src": "914:14:140",
+                    "src": "914:14:142",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Data_$17121_storage_ptr",
                       "typeString": "struct GPv2Order.Data"
@@ -586,13 +586,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54485,
+                  "id": 54555,
                   "mutability": "mutable",
                   "name": "ctx",
-                  "nameLocation": "961:3:140",
+                  "nameLocation": "961:3:142",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54495,
-                  "src": "953:11:140",
+                  "scope": 54565,
+                  "src": "953:11:142",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -600,10 +600,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54484,
+                    "id": 54554,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "953:7:140",
+                    "src": "953:7:142",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -613,37 +613,37 @@
                 },
                 {
                   "constant": false,
-                  "id": 54488,
+                  "id": 54558,
                   "mutability": "mutable",
                   "name": "params",
-                  "nameLocation": "1024:6:140",
+                  "nameLocation": "1024:6:142",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54495,
-                  "src": "974:56:140",
+                  "scope": 54565,
+                  "src": "974:56:142",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ConditionalOrderParams_$54415_calldata_ptr",
+                    "typeIdentifier": "t_struct$_ConditionalOrderParams_$54485_calldata_ptr",
                     "typeString": "struct IConditionalOrder.ConditionalOrderParams"
                   },
                   "typeName": {
-                    "id": 54487,
+                    "id": 54557,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 54486,
+                      "id": 54556,
                       "name": "IConditionalOrder.ConditionalOrderParams",
                       "nameLocations": [
-                        "974:17:140",
-                        "992:22:140"
+                        "974:17:142",
+                        "992:22:142"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 54415,
-                      "src": "974:40:140"
+                      "referencedDeclaration": 54485,
+                      "src": "974:40:142"
                     },
-                    "referencedDeclaration": 54415,
-                    "src": "974:40:140",
+                    "referencedDeclaration": 54485,
+                    "src": "974:40:142",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ConditionalOrderParams_$54415_storage_ptr",
+                      "typeIdentifier": "t_struct$_ConditionalOrderParams_$54485_storage_ptr",
                       "typeString": "struct IConditionalOrder.ConditionalOrderParams"
                     }
                   },
@@ -651,13 +651,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54490,
+                  "id": 54560,
                   "mutability": "mutable",
                   "name": "offchainInput",
-                  "nameLocation": "1055:13:140",
+                  "nameLocation": "1055:13:142",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54495,
-                  "src": "1040:28:140",
+                  "scope": 54565,
+                  "src": "1040:28:142",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -665,10 +665,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54489,
+                    "id": 54559,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1040:5:140",
+                    "src": "1040:5:142",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -677,21 +677,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "904:170:140"
+              "src": "904:170:142"
             },
             "returnParameters": {
-              "id": 54494,
+              "id": 54564,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54493,
+                  "id": 54563,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54495,
-                  "src": "1098:4:140",
+                  "scope": 54565,
+                  "src": "1098:4:142",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -699,10 +699,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 54492,
+                    "id": 54562,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1098:4:140",
+                    "src": "1098:4:142",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -711,9 +711,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1097:6:140"
+              "src": "1097:6:142"
             },
-            "scope": 54496,
+            "scope": 54566,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -723,41 +723,41 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 54478,
+              "id": 54548,
               "name": "IERC165",
               "nameLocations": [
-                "418:7:140"
+                "418:7:142"
               ],
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 52197,
-              "src": "418:7:140"
+              "src": "418:7:142"
             },
-            "id": 54479,
+            "id": 54549,
             "nodeType": "InheritanceSpecifier",
-            "src": "418:7:140"
+            "src": "418:7:142"
           }
         ],
         "canonicalName": "ISwapGuard",
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 54477,
+          "id": 54547,
           "nodeType": "StructuredDocumentation",
-          "src": "246:147:140",
+          "src": "246:147:142",
           "text": " @title SwapGuard Interface - Restrict CoW Protocol settlement for an account using `ComposableCoW`.\n @author mfw78 <mfw78@rndlabs.xyz>"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          54496,
+          54566,
           52197
         ],
         "name": "ISwapGuard",
-        "nameLocation": "404:10:140",
-        "scope": 54497,
+        "nameLocation": "404:10:142",
+        "scope": 54567,
         "usedErrors": []
       }
     ],
     "license": "GPL-3.0"
   },
-  "id": 140
+  "id": 142
 }

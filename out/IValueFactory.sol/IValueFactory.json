@@ -87,20 +87,20 @@
     },
     "settings": {
       "remappings": [
-        ":@openzeppelin/=lib/@openzeppelin/contracts/",
-        ":@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
-        ":balancer/=lib/balancer/src/",
-        ":canonical-weth/=lib/canonical-weth/src/",
-        ":cowprotocol/=lib/cowprotocol/src/contracts/",
-        ":ds-test/=lib/forge-std/lib/ds-test/src/",
-        ":erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
-        ":forge-std/=lib/forge-std/src/",
-        ":helpers/=lib/balancer/src/lib/helpers/",
-        ":math/=lib/balancer/src/lib/math/",
-        ":murky/=lib/murky/src/",
-        ":openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
-        ":openzeppelin/=lib/@openzeppelin/contracts/",
-        ":safe/=lib/safe/contracts/"
+        "@openzeppelin/=lib/@openzeppelin/contracts/",
+        "@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
+        "balancer/=lib/balancer/src/",
+        "canonical-weth/=lib/canonical-weth/src/",
+        "cowprotocol/=lib/cowprotocol/src/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "helpers/=lib/balancer/src/lib/helpers/",
+        "math/=lib/balancer/src/lib/math/",
+        "murky/=lib/murky/src/",
+        "openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
+        "openzeppelin/=lib/@openzeppelin/contracts/",
+        "safe/=lib/safe/contracts/"
       ],
       "optimizer": {
         "enabled": true,
@@ -128,19 +128,19 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IValueFactory.sol",
-    "id": 54596,
+    "id": 54579,
     "exportedSymbols": {
       "IValueFactory": [
-        54595
+        54578
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "36:517:142",
+    "src": "36:517:143",
     "nodes": [
       {
-        "id": 54585,
+        "id": 54568,
         "nodeType": "PragmaDirective",
-        "src": "36:31:142",
+        "src": "36:31:143",
         "nodes": [],
         "literals": [
           "solidity",
@@ -153,19 +153,19 @@
         ]
       },
       {
-        "id": 54595,
+        "id": 54578,
         "nodeType": "ContractDefinition",
-        "src": "268:284:142",
+        "src": "268:284:143",
         "nodes": [
           {
-            "id": 54594,
+            "id": 54577,
             "nodeType": "FunctionDefinition",
-            "src": "473:77:142",
+            "src": "473:77:143",
             "nodes": [],
             "documentation": {
-              "id": 54587,
+              "id": 54570,
               "nodeType": "StructuredDocumentation",
-              "src": "298:170:142",
+              "src": "298:170:143",
               "text": " Return a value at the time of the call\n @param data Implementation specific off-chain data\n @return value The value at the time of the call"
             },
             "functionSelector": "b6576bdf",
@@ -173,20 +173,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "getValue",
-            "nameLocation": "482:8:142",
+            "nameLocation": "482:8:143",
             "parameters": {
-              "id": 54590,
+              "id": 54573,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54589,
+                  "id": 54572,
                   "mutability": "mutable",
                   "name": "data",
-                  "nameLocation": "506:4:142",
+                  "nameLocation": "506:4:143",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54594,
-                  "src": "491:19:142",
+                  "scope": 54577,
+                  "src": "491:19:143",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -194,10 +194,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54588,
+                    "id": 54571,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "491:5:142",
+                    "src": "491:5:143",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -206,21 +206,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "490:21:142"
+              "src": "490:21:143"
             },
             "returnParameters": {
-              "id": 54593,
+              "id": 54576,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54592,
+                  "id": 54575,
                   "mutability": "mutable",
                   "name": "value",
-                  "nameLocation": "543:5:142",
+                  "nameLocation": "543:5:143",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54594,
-                  "src": "535:13:142",
+                  "scope": 54577,
+                  "src": "535:13:143",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -228,10 +228,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54591,
+                    "id": 54574,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "535:7:142",
+                    "src": "535:7:143",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -240,9 +240,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "534:15:142"
+              "src": "534:15:143"
             },
-            "scope": 54595,
+            "scope": 54578,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -254,22 +254,22 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 54586,
+          "id": 54569,
           "nodeType": "StructuredDocumentation",
-          "src": "69:198:142",
+          "src": "69:198:143",
           "text": " @title IValueFactory - An interface for on-chain value determination\n @author mfw78 <mfw78@rndlabs.xyz>\n @dev Designed to be used with Safe + ExtensibleFallbackHandler + ComposableCoW"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          54595
+          54578
         ],
         "name": "IValueFactory",
-        "nameLocation": "278:13:142",
-        "scope": 54596,
+        "nameLocation": "278:13:143",
+        "scope": 54579,
         "usedErrors": []
       }
     ],
     "license": "GPL-3.0"
   },
-  "id": 142
+  "id": 143
 }

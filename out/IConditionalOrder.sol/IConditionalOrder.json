@@ -295,20 +295,20 @@
     },
     "settings": {
       "remappings": [
-        ":@openzeppelin/=lib/@openzeppelin/contracts/",
-        ":@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
-        ":balancer/=lib/balancer/src/",
-        ":canonical-weth/=lib/canonical-weth/src/",
-        ":cowprotocol/=lib/cowprotocol/src/contracts/",
-        ":ds-test/=lib/forge-std/lib/ds-test/src/",
-        ":erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
-        ":forge-std/=lib/forge-std/src/",
-        ":helpers/=lib/balancer/src/lib/helpers/",
-        ":math/=lib/balancer/src/lib/math/",
-        ":murky/=lib/murky/src/",
-        ":openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
-        ":openzeppelin/=lib/@openzeppelin/contracts/",
-        ":safe/=lib/safe/contracts/"
+        "@openzeppelin/=lib/@openzeppelin/contracts/",
+        "@openzeppelin/contracts/=lib/@openzeppelin/contracts/",
+        "balancer/=lib/balancer/src/",
+        "canonical-weth/=lib/canonical-weth/src/",
+        "cowprotocol/=lib/cowprotocol/src/contracts/",
+        "ds-test/=lib/forge-std/lib/ds-test/src/",
+        "erc4626-tests/=lib/@openzeppelin/lib/erc4626-tests/",
+        "forge-std/=lib/forge-std/src/",
+        "helpers/=lib/balancer/src/lib/helpers/",
+        "math/=lib/balancer/src/lib/math/",
+        "murky/=lib/murky/src/",
+        "openzeppelin-contracts/=lib/murky/lib/openzeppelin-contracts/",
+        "openzeppelin/=lib/@openzeppelin/contracts/",
+        "safe/=lib/safe/contracts/"
       ],
       "optimizer": {
         "enabled": true,
@@ -376,7 +376,7 @@
   },
   "ast": {
     "absolutePath": "src/interfaces/IConditionalOrder.sol",
-    "id": 54469,
+    "id": 54539,
     "exportedSymbols": {
       "GPv2Interaction": [
         17090
@@ -385,22 +385,22 @@
         17246
       ],
       "IConditionalOrder": [
-        54437
+        54507
       ],
       "IConditionalOrderGenerator": [
-        54468
+        54538
       ],
       "IERC165": [
         52197
       ]
     },
     "nodeType": "SourceUnit",
-    "src": "36:3924:139",
+    "src": "36:3924:141",
     "nodes": [
       {
-        "id": 54395,
+        "id": 54465,
         "nodeType": "PragmaDirective",
-        "src": "36:31:139",
+        "src": "36:31:141",
         "nodes": [],
         "literals": [
           "solidity",
@@ -413,24 +413,24 @@
         ]
       },
       {
-        "id": 54397,
+        "id": 54467,
         "nodeType": "ImportDirective",
-        "src": "69:62:139",
+        "src": "69:62:141",
         "nodes": [],
         "absolutePath": "lib/cowprotocol/src/contracts/libraries/GPv2Order.sol",
         "file": "cowprotocol/libraries/GPv2Order.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54469,
+        "scope": 54539,
         "sourceUnit": 17247,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54396,
+              "id": 54466,
               "name": "GPv2Order",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
               "referencedDeclaration": 17246,
-              "src": "77:9:139",
+              "src": "77:9:141",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -439,24 +439,24 @@
         "unitAlias": ""
       },
       {
-        "id": 54399,
+        "id": 54469,
         "nodeType": "ImportDirective",
-        "src": "132:74:139",
+        "src": "132:74:141",
         "nodes": [],
         "absolutePath": "lib/cowprotocol/src/contracts/libraries/GPv2Interaction.sol",
         "file": "cowprotocol/libraries/GPv2Interaction.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54469,
+        "scope": 54539,
         "sourceUnit": 17091,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54398,
+              "id": 54468,
               "name": "GPv2Interaction",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
               "referencedDeclaration": 17090,
-              "src": "140:15:139",
+              "src": "140:15:141",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -465,24 +465,24 @@
         "unitAlias": ""
       },
       {
-        "id": 54401,
+        "id": 54471,
         "nodeType": "ImportDirective",
-        "src": "207:52:139",
+        "src": "207:52:141",
         "nodes": [],
         "absolutePath": "lib/safe/contracts/interfaces/IERC165.sol",
         "file": "safe/interfaces/IERC165.sol",
         "nameLocation": "-1:-1:-1",
-        "scope": 54469,
+        "scope": 54539,
         "sourceUnit": 52198,
         "symbolAliases": [
           {
             "foreign": {
-              "id": 54400,
+              "id": 54470,
               "name": "IERC165",
               "nodeType": "Identifier",
               "overloadedDeclarations": [],
               "referencedDeclaration": 52197,
-              "src": "215:7:139",
+              "src": "215:7:141",
               "typeDescriptions": {}
             },
             "nameLocation": "-1:-1:-1"
@@ -491,37 +491,37 @@
         "unitAlias": ""
       },
       {
-        "id": 54437,
+        "id": 54507,
         "nodeType": "ContractDefinition",
-        "src": "370:2142:139",
+        "src": "370:2142:141",
         "nodes": [
           {
-            "id": 54407,
+            "id": 54477,
             "nodeType": "ErrorDefinition",
-            "src": "624:28:139",
+            "src": "624:28:141",
             "nodes": [],
             "documentation": {
-              "id": 54403,
+              "id": 54473,
               "nodeType": "StructuredDocumentation",
-              "src": "404:215:139",
+              "src": "404:215:141",
               "text": "@dev This error is returned by the `getTradeableOrder` function if the order condition is not met.\n      A parameter of `string` type is included to allow the caller to specify the reason for the failure."
             },
             "errorSelector": "c8fc2725",
             "name": "OrderNotValid",
-            "nameLocation": "630:13:139",
+            "nameLocation": "630:13:141",
             "parameters": {
-              "id": 54406,
+              "id": 54476,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54405,
+                  "id": 54475,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54407,
-                  "src": "644:6:139",
+                  "scope": 54477,
+                  "src": "644:6:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -529,10 +529,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 54404,
+                    "id": 54474,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "644:6:139",
+                    "src": "644:6:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -541,48 +541,48 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "643:8:139"
+              "src": "643:8:141"
             }
           },
           {
-            "id": 54415,
+            "id": 54485,
             "nodeType": "StructDefinition",
-            "src": "840:121:139",
+            "src": "840:121:141",
             "nodes": [],
             "canonicalName": "IConditionalOrder.ConditionalOrderParams",
             "members": [
               {
                 "constant": false,
-                "id": 54410,
+                "id": 54480,
                 "mutability": "mutable",
                 "name": "handler",
-                "nameLocation": "898:7:139",
+                "nameLocation": "898:7:141",
                 "nodeType": "VariableDeclaration",
-                "scope": 54415,
-                "src": "880:25:139",
+                "scope": 54485,
+                "src": "880:25:141",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_contract$_IConditionalOrder_$54437",
+                  "typeIdentifier": "t_contract$_IConditionalOrder_$54507",
                   "typeString": "contract IConditionalOrder"
                 },
                 "typeName": {
-                  "id": 54409,
+                  "id": 54479,
                   "nodeType": "UserDefinedTypeName",
                   "pathNode": {
-                    "id": 54408,
+                    "id": 54478,
                     "name": "IConditionalOrder",
                     "nameLocations": [
-                      "880:17:139"
+                      "880:17:141"
                     ],
                     "nodeType": "IdentifierPath",
-                    "referencedDeclaration": 54437,
-                    "src": "880:17:139"
+                    "referencedDeclaration": 54507,
+                    "src": "880:17:141"
                   },
-                  "referencedDeclaration": 54437,
-                  "src": "880:17:139",
+                  "referencedDeclaration": 54507,
+                  "src": "880:17:141",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_contract$_IConditionalOrder_$54437",
+                    "typeIdentifier": "t_contract$_IConditionalOrder_$54507",
                     "typeString": "contract IConditionalOrder"
                   }
                 },
@@ -590,13 +590,13 @@
               },
               {
                 "constant": false,
-                "id": 54412,
+                "id": 54482,
                 "mutability": "mutable",
                 "name": "salt",
-                "nameLocation": "923:4:139",
+                "nameLocation": "923:4:141",
                 "nodeType": "VariableDeclaration",
-                "scope": 54415,
-                "src": "915:12:139",
+                "scope": 54485,
+                "src": "915:12:141",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -604,10 +604,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 54411,
+                  "id": 54481,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "915:7:139",
+                  "src": "915:7:141",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -617,13 +617,13 @@
               },
               {
                 "constant": false,
-                "id": 54414,
+                "id": 54484,
                 "mutability": "mutable",
                 "name": "staticInput",
-                "nameLocation": "943:11:139",
+                "nameLocation": "943:11:141",
                 "nodeType": "VariableDeclaration",
-                "scope": 54415,
-                "src": "937:17:139",
+                "scope": 54485,
+                "src": "937:17:141",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -631,10 +631,10 @@
                   "typeString": "bytes"
                 },
                 "typeName": {
-                  "id": 54413,
+                  "id": 54483,
                   "name": "bytes",
                   "nodeType": "ElementaryTypeName",
-                  "src": "937:5:139",
+                  "src": "937:5:141",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes_storage_ptr",
                     "typeString": "bytes"
@@ -644,19 +644,19 @@
               }
             ],
             "name": "ConditionalOrderParams",
-            "nameLocation": "847:22:139",
-            "scope": 54437,
+            "nameLocation": "847:22:141",
+            "scope": 54507,
             "visibility": "public"
           },
           {
-            "id": 54436,
+            "id": 54506,
             "nodeType": "FunctionDefinition",
-            "src": "2237:273:139",
+            "src": "2237:273:141",
             "nodes": [],
             "documentation": {
-              "id": 54416,
+              "id": 54486,
               "nodeType": "StructuredDocumentation",
-              "src": "967:1265:139",
+              "src": "967:1265:141",
               "text": " Verify if a given discrete order is valid.\n @dev Used in combination with `isValidSafeSignature` to verify that the order is signed by the Safe.\n      **MUST** revert if the order condition is not met.\n @dev The `order` parameter is ignored / not validated by the `IConditionalOrderGenerator` implementation.\n      This parameter is included to allow more granular control over the order verification logic, and to\n      allow a watch tower / user to propose a discrete order without it being generated by on-chain logic.\n @param owner the contract who is the owner of the order\n @param sender the `msg.sender` of the transaction\n @param _hash the hash of the order\n @param domainSeparator the domain separator used to sign the order\n @param ctx the context key of the order (bytes32(0) if a merkle tree is used, otherwise H(params)) with which to lookup the cabinet\n @param staticInput the static input for all discrete orders cut from this conditional order\n @param offchainInput dynamic off-chain input for a discrete order cut from this conditional order\n @param order `GPv2Order.Data` of a discrete order to be verified (if *not* an `IConditionalOrderGenerator`)."
             },
             "functionSelector": "14a2a784",
@@ -664,20 +664,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "verify",
-            "nameLocation": "2246:6:139",
+            "nameLocation": "2246:6:141",
             "parameters": {
-              "id": 54434,
+              "id": 54504,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54418,
+                  "id": 54488,
                   "mutability": "mutable",
                   "name": "owner",
-                  "nameLocation": "2270:5:139",
+                  "nameLocation": "2270:5:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2262:13:139",
+                  "scope": 54506,
+                  "src": "2262:13:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -685,10 +685,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54417,
+                    "id": 54487,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2262:7:139",
+                    "src": "2262:7:141",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -699,13 +699,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54420,
+                  "id": 54490,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "2293:6:139",
+                  "nameLocation": "2293:6:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2285:14:139",
+                  "scope": 54506,
+                  "src": "2285:14:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -713,10 +713,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54419,
+                    "id": 54489,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2285:7:139",
+                    "src": "2285:7:141",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -727,13 +727,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54422,
+                  "id": 54492,
                   "mutability": "mutable",
                   "name": "_hash",
-                  "nameLocation": "2317:5:139",
+                  "nameLocation": "2317:5:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2309:13:139",
+                  "scope": 54506,
+                  "src": "2309:13:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -741,10 +741,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54421,
+                    "id": 54491,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2309:7:139",
+                    "src": "2309:7:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -754,13 +754,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54424,
+                  "id": 54494,
                   "mutability": "mutable",
                   "name": "domainSeparator",
-                  "nameLocation": "2340:15:139",
+                  "nameLocation": "2340:15:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2332:23:139",
+                  "scope": 54506,
+                  "src": "2332:23:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -768,10 +768,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54423,
+                    "id": 54493,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2332:7:139",
+                    "src": "2332:7:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -781,13 +781,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54426,
+                  "id": 54496,
                   "mutability": "mutable",
                   "name": "ctx",
-                  "nameLocation": "2373:3:139",
+                  "nameLocation": "2373:3:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2365:11:139",
+                  "scope": 54506,
+                  "src": "2365:11:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -795,10 +795,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54425,
+                    "id": 54495,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2365:7:139",
+                    "src": "2365:7:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -808,13 +808,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54428,
+                  "id": 54498,
                   "mutability": "mutable",
                   "name": "staticInput",
-                  "nameLocation": "2401:11:139",
+                  "nameLocation": "2401:11:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2386:26:139",
+                  "scope": 54506,
+                  "src": "2386:26:141",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -822,10 +822,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54427,
+                    "id": 54497,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2386:5:139",
+                    "src": "2386:5:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -835,13 +835,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54430,
+                  "id": 54500,
                   "mutability": "mutable",
                   "name": "offchainInput",
-                  "nameLocation": "2437:13:139",
+                  "nameLocation": "2437:13:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2422:28:139",
+                  "scope": 54506,
+                  "src": "2422:28:141",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -849,10 +849,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54429,
+                    "id": 54499,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2422:5:139",
+                    "src": "2422:5:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -862,13 +862,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54433,
+                  "id": 54503,
                   "mutability": "mutable",
                   "name": "order",
-                  "nameLocation": "2484:5:139",
+                  "nameLocation": "2484:5:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54436,
-                  "src": "2460:29:139",
+                  "scope": 54506,
+                  "src": "2460:29:141",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -876,21 +876,21 @@
                     "typeString": "struct GPv2Order.Data"
                   },
                   "typeName": {
-                    "id": 54432,
+                    "id": 54502,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 54431,
+                      "id": 54501,
                       "name": "GPv2Order.Data",
                       "nameLocations": [
-                        "2460:9:139",
-                        "2470:4:139"
+                        "2460:9:141",
+                        "2470:4:141"
                       ],
                       "nodeType": "IdentifierPath",
                       "referencedDeclaration": 17121,
-                      "src": "2460:14:139"
+                      "src": "2460:14:141"
                     },
                     "referencedDeclaration": 17121,
-                    "src": "2460:14:139",
+                    "src": "2460:14:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Data_$17121_storage_ptr",
                       "typeString": "struct GPv2Order.Data"
@@ -899,15 +899,15 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2252:243:139"
+              "src": "2252:243:141"
             },
             "returnParameters": {
-              "id": 54435,
+              "id": 54505,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "2509:0:139"
+              "src": "2509:0:141"
             },
-            "scope": 54437,
+            "scope": 54507,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -919,56 +919,56 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 54402,
+          "id": 54472,
           "nodeType": "StructuredDocumentation",
-          "src": "261:108:139",
+          "src": "261:108:141",
           "text": " @title Conditional Order Interface\n @author CoW Protocol Developers + mfw78 <mfw78@rndlabs.xyz>"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          54437
+          54507
         ],
         "name": "IConditionalOrder",
-        "nameLocation": "380:17:139",
-        "scope": 54469,
+        "nameLocation": "380:17:141",
+        "scope": 54539,
         "usedErrors": [
-          54407
+          54477
         ]
       },
       {
-        "id": 54468,
+        "id": 54538,
         "nodeType": "ContractDefinition",
-        "src": "2607:1352:139",
+        "src": "2607:1352:141",
         "nodes": [
           {
-            "id": 54450,
+            "id": 54520,
             "nodeType": "EventDefinition",
-            "src": "2914:102:139",
+            "src": "2914:102:141",
             "nodes": [],
             "anonymous": false,
             "documentation": {
-              "id": 54443,
+              "id": 54513,
               "nodeType": "StructuredDocumentation",
-              "src": "2680:229:139",
+              "src": "2680:229:141",
               "text": " @dev This event is emitted when a new conditional order is created.\n @param owner the address that has created the conditional order\n @param params the address / salt / data of the conditional order"
             },
             "eventSelector": "2cceac5555b0ca45a3744ced542f54b56ad2eb45e521962372eef212a2cbf361",
             "name": "ConditionalOrderCreated",
-            "nameLocation": "2920:23:139",
+            "nameLocation": "2920:23:141",
             "parameters": {
-              "id": 54449,
+              "id": 54519,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54445,
+                  "id": 54515,
                   "indexed": true,
                   "mutability": "mutable",
                   "name": "owner",
-                  "nameLocation": "2960:5:139",
+                  "nameLocation": "2960:5:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54450,
-                  "src": "2944:21:139",
+                  "scope": 54520,
+                  "src": "2944:21:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -976,10 +976,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54444,
+                    "id": 54514,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2944:7:139",
+                    "src": "2944:7:141",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -990,56 +990,56 @@
                 },
                 {
                   "constant": false,
-                  "id": 54448,
+                  "id": 54518,
                   "indexed": false,
                   "mutability": "mutable",
                   "name": "params",
-                  "nameLocation": "3008:6:139",
+                  "nameLocation": "3008:6:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54450,
-                  "src": "2967:47:139",
+                  "scope": 54520,
+                  "src": "2967:47:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_struct$_ConditionalOrderParams_$54415_memory_ptr",
+                    "typeIdentifier": "t_struct$_ConditionalOrderParams_$54485_memory_ptr",
                     "typeString": "struct IConditionalOrder.ConditionalOrderParams"
                   },
                   "typeName": {
-                    "id": 54447,
+                    "id": 54517,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 54446,
+                      "id": 54516,
                       "name": "IConditionalOrder.ConditionalOrderParams",
                       "nameLocations": [
-                        "2967:17:139",
-                        "2985:22:139"
+                        "2967:17:141",
+                        "2985:22:141"
                       ],
                       "nodeType": "IdentifierPath",
-                      "referencedDeclaration": 54415,
-                      "src": "2967:40:139"
+                      "referencedDeclaration": 54485,
+                      "src": "2967:40:141"
                     },
-                    "referencedDeclaration": 54415,
-                    "src": "2967:40:139",
+                    "referencedDeclaration": 54485,
+                    "src": "2967:40:141",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_struct$_ConditionalOrderParams_$54415_storage_ptr",
+                      "typeIdentifier": "t_struct$_ConditionalOrderParams_$54485_storage_ptr",
                       "typeString": "struct IConditionalOrder.ConditionalOrderParams"
                     }
                   },
                   "visibility": "internal"
                 }
               ],
-              "src": "2943:72:139"
+              "src": "2943:72:141"
             }
           },
           {
-            "id": 54467,
+            "id": 54537,
             "nodeType": "FunctionDefinition",
-            "src": "3736:221:139",
+            "src": "3736:221:141",
             "nodes": [],
             "documentation": {
-              "id": 54451,
+              "id": 54521,
               "nodeType": "StructuredDocumentation",
-              "src": "3022:709:139",
+              "src": "3022:709:141",
               "text": " @dev Get a tradeable order that can be posted to the CoW Protocol API and would pass signature validation.\n      **MUST** revert if the order condition is not met.\n @param owner the contract who is the owner of the order\n @param sender the `msg.sender` of the parent `isValidSignature` call\n @param ctx the context of the order (bytes32(0) if merkle tree is used, otherwise the H(params))\n @param staticInput the static input for all discrete orders cut from this conditional order\n @param offchainInput dynamic off-chain input for a discrete order cut from this conditional order\n @return the tradeable order for submission to the CoW Protocol API"
             },
             "functionSelector": "b8296fc4",
@@ -1047,20 +1047,20 @@
             "kind": "function",
             "modifiers": [],
             "name": "getTradeableOrder",
-            "nameLocation": "3745:17:139",
+            "nameLocation": "3745:17:141",
             "parameters": {
-              "id": 54462,
+              "id": 54532,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54453,
+                  "id": 54523,
                   "mutability": "mutable",
                   "name": "owner",
-                  "nameLocation": "3780:5:139",
+                  "nameLocation": "3780:5:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3772:13:139",
+                  "scope": 54537,
+                  "src": "3772:13:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1068,10 +1068,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54452,
+                    "id": 54522,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3772:7:139",
+                    "src": "3772:7:141",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1082,13 +1082,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54455,
+                  "id": 54525,
                   "mutability": "mutable",
                   "name": "sender",
-                  "nameLocation": "3803:6:139",
+                  "nameLocation": "3803:6:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3795:14:139",
+                  "scope": 54537,
+                  "src": "3795:14:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1096,10 +1096,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 54454,
+                    "id": 54524,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3795:7:139",
+                    "src": "3795:7:141",
                     "stateMutability": "nonpayable",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
@@ -1110,13 +1110,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54457,
+                  "id": 54527,
                   "mutability": "mutable",
                   "name": "ctx",
-                  "nameLocation": "3827:3:139",
+                  "nameLocation": "3827:3:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3819:11:139",
+                  "scope": 54537,
+                  "src": "3819:11:141",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1124,10 +1124,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 54456,
+                    "id": 54526,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3819:7:139",
+                    "src": "3819:7:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1137,13 +1137,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54459,
+                  "id": 54529,
                   "mutability": "mutable",
                   "name": "staticInput",
-                  "nameLocation": "3855:11:139",
+                  "nameLocation": "3855:11:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3840:26:139",
+                  "scope": 54537,
+                  "src": "3840:26:141",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1151,10 +1151,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54458,
+                    "id": 54528,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3840:5:139",
+                    "src": "3840:5:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1164,13 +1164,13 @@
                 },
                 {
                   "constant": false,
-                  "id": 54461,
+                  "id": 54531,
                   "mutability": "mutable",
                   "name": "offchainInput",
-                  "nameLocation": "3891:13:139",
+                  "nameLocation": "3891:13:141",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3876:28:139",
+                  "scope": 54537,
+                  "src": "3876:28:141",
                   "stateVariable": false,
                   "storageLocation": "calldata",
                   "typeDescriptions": {
@@ -1178,10 +1178,10 @@
                     "typeString": "bytes"
                   },
                   "typeName": {
-                    "id": 54460,
+                    "id": 54530,
                     "name": "bytes",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3876:5:139",
+                    "src": "3876:5:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes_storage_ptr",
                       "typeString": "bytes"
@@ -1190,21 +1190,21 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3762:148:139"
+              "src": "3762:148:141"
             },
             "returnParameters": {
-              "id": 54466,
+              "id": 54536,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 54465,
+                  "id": 54535,
                   "mutability": "mutable",
                   "name": "",
                   "nameLocation": "-1:-1:-1",
                   "nodeType": "VariableDeclaration",
-                  "scope": 54467,
-                  "src": "3934:21:139",
+                  "scope": 54537,
+                  "src": "3934:21:141",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -1212,21 +1212,21 @@
                     "typeString": "struct GPv2Order.Data"
                   },
                   "typeName": {
-                    "id": 54464,
+                    "id": 54534,
                     "nodeType": "UserDefinedTypeName",
                     "pathNode": {
-                      "id": 54463,
+                      "id": 54533,
                       "name": "GPv2Order.Data",
                       "nameLocations": [
-                        "3934:9:139",
-                        "3944:4:139"
+                        "3934:9:141",
+                        "3944:4:141"
                       ],
                       "nodeType": "IdentifierPath",
                       "referencedDeclaration": 17121,
-                      "src": "3934:14:139"
+                      "src": "3934:14:141"
                     },
                     "referencedDeclaration": 17121,
-                    "src": "3934:14:139",
+                    "src": "3934:14:141",
                     "typeDescriptions": {
                       "typeIdentifier": "t_struct$_Data_$17121_storage_ptr",
                       "typeString": "struct GPv2Order.Data"
@@ -1235,9 +1235,9 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3933:23:139"
+              "src": "3933:23:141"
             },
-            "scope": 54468,
+            "scope": 54538,
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
@@ -1247,59 +1247,59 @@
         "baseContracts": [
           {
             "baseName": {
-              "id": 54439,
+              "id": 54509,
               "name": "IConditionalOrder",
               "nameLocations": [
-                "2647:17:139"
+                "2647:17:141"
               ],
               "nodeType": "IdentifierPath",
-              "referencedDeclaration": 54437,
-              "src": "2647:17:139"
+              "referencedDeclaration": 54507,
+              "src": "2647:17:141"
             },
-            "id": 54440,
+            "id": 54510,
             "nodeType": "InheritanceSpecifier",
-            "src": "2647:17:139"
+            "src": "2647:17:141"
           },
           {
             "baseName": {
-              "id": 54441,
+              "id": 54511,
               "name": "IERC165",
               "nameLocations": [
-                "2666:7:139"
+                "2666:7:141"
               ],
               "nodeType": "IdentifierPath",
               "referencedDeclaration": 52197,
-              "src": "2666:7:139"
+              "src": "2666:7:141"
             },
-            "id": 54442,
+            "id": 54512,
             "nodeType": "InheritanceSpecifier",
-            "src": "2666:7:139"
+            "src": "2666:7:141"
           }
         ],
         "canonicalName": "IConditionalOrderGenerator",
         "contractDependencies": [],
         "contractKind": "interface",
         "documentation": {
-          "id": 54438,
+          "id": 54508,
           "nodeType": "StructuredDocumentation",
-          "src": "2514:92:139",
+          "src": "2514:92:141",
           "text": " @title Conditional Order Generator Interface\n @author mfw78 <mfw78@rndlabs.xyz>"
         },
         "fullyImplemented": false,
         "linearizedBaseContracts": [
-          54468,
+          54538,
           52197,
-          54437
+          54507
         ],
         "name": "IConditionalOrderGenerator",
-        "nameLocation": "2617:26:139",
-        "scope": 54469,
+        "nameLocation": "2617:26:141",
+        "scope": 54539,
         "usedErrors": [
-          54407
+          54477
         ]
       }
     ],
     "license": "GPL-3.0"
   },
-  "id": 139
+  "id": 141
 }
